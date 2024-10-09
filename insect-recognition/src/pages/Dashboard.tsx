@@ -22,7 +22,7 @@ function Dashboard() {
                 <div className="flex justify-center items-center shadow-md p-3 bg-amber-900 h-32 w-44 md:w-60 rounded-lg cursor-pointer" onClick={() => navigate("DiarioC")}>
                     <span className="text-white">Diário de campo</span>
                 </div>
-                <div className="flex justify-center items-center shadow-md p-3 bg-amber-900 h-32 w-44 md:w-60 rounded-lg cursor-pointer" onClick={() => navigate("Manejo")}>
+                <div className="flex justify-center items-center shadow-md p-3 bg-amber-900 h-32 w-44 md:w-60 rounded-lg cursor-pointer" onClick={() => navigate("Mapa")}>
                     <span className="text-white">Mapas</span>
                 </div>
                 <div className="flex justify-center col-span-2 items-center shadow-md p-3 md:w-60 md:col-span-1 bg-amber-900 h-32 w-full rounded-lg cursor-pointer" onClick={() => navigate("Especialistas")}>

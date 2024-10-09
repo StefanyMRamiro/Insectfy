@@ -9,6 +9,8 @@ import DiarioC from "./pages/DiarioC";
 import Monitoramento from "./pages/Monitoramento";
 import Predadores from "./pages/Predadores";
 import Especialistas from "./pages/Especialistas"
+import Mapa from "./pages/Mapa"
+
 function App() {
   return (
     <Routes>
@@ -22,6 +24,7 @@ function App() {
         <Route path="monitoramento" element={<Monitoramento />} />
         <Route path="predadores" element={<Predadores />} />
         <Route path="especialistas" element={<Especialistas />} />
+        <Route path="mapa" element={<Mapa />} />
       </Route>
     </Routes>
   )
