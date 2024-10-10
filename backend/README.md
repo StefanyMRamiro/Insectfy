@@ -20,8 +20,8 @@ npm run dev
 
 
 ip unioeste
-uvicorn main:app --host 10.83.132.51 --port 8000
-npm run preview -- --host 10.83.132.51
+uvicorn main:app --host 10.83.131.65 --port 3001
+npm run preview -- --host 10.83.131.65 --port 3001
 
 logo
 logo: npm run generate-pwa-assets
